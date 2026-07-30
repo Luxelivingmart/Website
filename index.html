@@ -172,9 +172,16 @@
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.95fr 1.05fr;
     gap: 48px;
     align-items: center;
+}
+    .hero-subheadline {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: #ff9900;
+    font-weight: 800;
+    margin-top: 12px;
+    margin-bottom: 24px;
 }
 
     .eyebrow {
@@ -727,7 +734,13 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">UK Online Retailer</p>
-          <h1 id="hero-title">Quality Home &amp; Lifestyle Products <span>for Everyday Living</span></h1>
+          <h1 id="hero-title">
+  Quality Home & Lifestyle Products
+</h1>
+
+<p class="hero-subheadline">
+  For Everyday Living
+</p>
           <p class="hero-copy">Discover carefully selected home, kitchen, garden, storage and lifestyle products designed to make everyday living easier. Browse our range and shop securely through trusted Amazon and eBay marketplaces.</p>
 
           <div class="hero-actions" aria-label="Marketplace links">
