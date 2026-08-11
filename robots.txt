@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://luxelivingmart.co.uk/sitemap.xml
+
+# Optional crawl delay for aggressive bots
+Crawl-delay: 1
